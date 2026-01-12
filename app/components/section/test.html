@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Boda Miguel & Reyna</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            champagne: '#E6D8B8',
+            ivory: '#F9F7F2',
+            olive: '#6B7B5C',
+            dark: '#2B2B2B'
+          },
+          fontFamily: {
+            serif: ['Playfair Display', 'serif'],
+            sans: ['Montserrat', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-ivory text-dark font-sans">
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h1 class="font-serif text-4xl md:text-6xl mb-4">Miguel & Reyna</h1>
+    <p class="uppercase tracking-widest text-sm mb-6">Nos Casamos</p>
+
+    <p class="font-serif text-xl md:text-2xl mb-10">
+      Viernes 06 de Marzo 2026
+    </p>
+
+    <a href="#rsvp" class="px-8 py-3 border border-dark hover:bg-dark hover:text-ivory transition">
+      Confirmar Asistencia
+    </a>
+  </section>
+
+  <!-- FRASE -->
+  <section class="py-20 px-6 text-center max-w-3xl mx-auto">
+    <p class="font-serif text-2xl leading-relaxed">
+      “Con la bendición de Dios y el amor de nuestras familias,
+      queremos compartir contigo el día más especial de nuestras vidas.”
+    </p>
+  </section>
+
+  <!-- CEREMONIA RELIGIOSA -->
+  <section class="py-16 px-6 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="font-serif text-3xl mb-6">Ceremonia Religiosa</h2>
+      <p class="mb-2 font-medium">Arquidiócesis de Hermosillo<br>Templo Expiatorio</p>
+      <p class="text-sm mb-4">
+        Gral. Antonio Villarreal 27, Country Club<br>
+        Hermosillo, Sonora
+      </p>
+      <p class="mb-4 font-semibold">5:30 pm</p>
+
+      <a href="https://maps.google.com/?q=Arquidiócesis+de+Hermosillo+Templo+Expiatorio" target="_blank"
+        class="text-olive underline">
+        Ver ubicación
+      </a>
+    </div>
+  </section>
+
+  <!-- CEREMONIA CIVIL -->
+  <section class="py-16 px-6 text-center">
+    <h2 class="font-serif text-3xl mb-4">Ceremonia Civil</h2>
+    <p class="font-semibold">7:00 pm</p>
+  </section>
+
+  <!-- EVENTO -->
+  <section class="py-16 px-6 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="font-serif text-3xl mb-6">Recepción</h2>
+      <p class="mb-2 font-medium">Salón Las Cascadas</p>
+      <p class="text-sm mb-4">
+        Los Molinos 97, Las Minitas<br>
+        Hermosillo, Sonora
+      </p>
+      <p class="mb-4 font-semibold">8:00 pm – 1:00 am</p>
+
+      <a href="https://maps.google.com/?q=Salon+Las+Cascadas+Hermosillo" target="_blank" class="text-olive underline">
+        Ver ubicación
+      </a>
+    </div>
+  </section>
+
+  <!-- DRESS CODE -->
+  <section class="py-16 px-6 text-center">
+    <h2 class="font-serif text-3xl mb-6">Código de Vestimenta</h2>
+    <p class="mb-2">Mujeres: <strong>Vestido Largo</strong></p>
+    <p class="mb-6">Hombres: <strong>Traje</strong></p>
+
+    <p class="text-sm uppercase tracking-widest mb-2">Evitar colores</p>
+    <p class="text-sm">Blanco · Vino · Rosa Palo</p>
+  </section>
+
+  <!-- FAMILIA -->
+  <section class="py-16 px-6 bg-white">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 text-center">
+      <div>
+        <h3 class="font-serif text-2xl mb-3">Padres de la Novia</h3>
+        <p>María Eduviges Córdova Velducea</p>
+        <p>Ángel Grijalva Morales</p>
+      </div>
+
+      <div>
+        <h3 class="font-serif text-2xl mb-3">Padres del Novio</h3>
+        <p>Elsa Arroyo Pineda</p>
+        <p>Miguel Ángel Ibarra Galindo</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PADRINOS -->
+  <section class="py-16 px-6 text-center">
+    <h2 class="font-serif text-3xl mb-6">Padrinos</h2>
+    <p>Severiano Córdova Velducea</p>
+    <p>Ana Elvia Ríos Chávez</p>
+  </section>
+
+  <!-- REGALOS -->
+  <section class="py-16 px-6 bg-white text-center">
+    <h2 class="font-serif text-3xl mb-6">Mesa de Regalos</h2>
+
+    <p class="mb-4">
+      BBVA – Reyna Eduwiges Grijalva Córdoba<br>
+      <strong>4152 3140 3063 9432</strong>
+    </p>
+
+    <p class="mb-6 text-sm italic">
+      También se recibirá efectivo durante el evento
+    </p>
+
+    <p>
+      Liverpool<br>
+      <strong>No. 51805587</strong>
+    </p>
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp" class="py-20 px-6 text-center">
+    <h2 class="font-serif text-3xl mb-6">Confirmación de Asistencia</h2>
+    <p class="mb-6">
+      Agradecemos confirmar antes del<br>
+      <strong>10 de Febrero 2026</strong>
+    </p>
+
+    <div class="flex flex-col gap-4 items-center">
+      <a href="https://wa.me/526621421896"
+        class="px-8 py-3 border border-dark hover:bg-dark hover:text-ivory transition">
+        Confirmar con Reyna
+      </a>
+
+      <a href="https://wa.me/526622750405"
+        class="px-8 py-3 border border-dark hover:bg-dark hover:text-ivory transition">
+        Confirmar con Miguel
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 text-center text-sm">
+    <p>Con amor, Miguel & Reyna 💍</p>
+  </footer>
+
+</body>
+
+</html>
