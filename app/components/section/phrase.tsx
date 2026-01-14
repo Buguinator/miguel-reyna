@@ -35,14 +35,14 @@ const Phrase = () => {
           <FloatingElement depth={0.5} className="top-[15%] left-[5%] md:top-[8%] md:left-[11%]">
             <motion.img
               initial={{ opacity: 0 }}
-              src={"/phrase1.jpg"}
+              src={"/phrase1.webp"}
               className="w-24 h-32 md:w-48 md:h-58 object-cover hover:scale-150 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
           <FloatingElement depth={1} className="top-[10%] left-[25%] md:top-[15%] md:left-[35%]">
             <motion.img
               initial={{ opacity: 0 }}
-              src={"/phrase2.jpg"}
+              src={"/phrase2.webp"}
               className="w-24 h-24 md:w-48 md:h-48 object-cover hover:scale-150 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
