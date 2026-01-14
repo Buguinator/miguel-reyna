@@ -49,14 +49,14 @@ const Phrase = () => {
           <FloatingElement depth={2} className="top-[10%] left-[62%]">
             <motion.img
               initial={{ opacity: 0 }}
-              src={"/phrase3.jpg"}
+              src={"/phrase3.webp"}
               className="w-28 h-40 md:w-40 md:h-52 object-cover hover:scale-150 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
           <FloatingElement depth={1} className="top-[20%] left-[83%]">
             <motion.img
               initial={{ opacity: 0 }}
-              src={"/phrase4.jpg"}
+              src={"/phrase4.webp"}
               className="w-24 h-32 md:w-48 md:h-64 object-cover hover:scale-150 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
@@ -64,14 +64,14 @@ const Phrase = () => {
           <FloatingElement depth={1} className="md:top-[40%] top-[60%] md:left-[2%] left-[2%]">
             <motion.img
               initial={{ opacity: 0 }}
-              src={"/phrase5.jpg"}
+              src={"/phrase5.webp"}
               className="w-24 h-32 md:w-64 md:h-86 object-cover hover:scale-150 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
           <FloatingElement depth={2} className="md:top-[70%] top-[60%] md:left-[77%] left-[77%]">
             <motion.img
               initial={{ opacity: 0 }}
-              src={"/phrase6.jpg"}
+              src={"/phrase6.webp"}
               className="w-24 h-32 md:w-64 md:h-86 object-cover hover:scale-150 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
@@ -79,14 +79,14 @@ const Phrase = () => {
           <FloatingElement depth={4} className="md:top-[85%] top-[80%] md:left-[20%] left-[20%]">
             <motion.img
               initial={{ opacity: 0 }}
-              src={"/phrase7.jpg"}
+              src={"/phrase7.webp"}
               className="w-40 md:w-92 h-full object-cover hover:scale-150 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
           <FloatingElement depth={1} className="top-[75%] left-[60%]">
             <motion.img
               initial={{ opacity: 0 }}
-              src={"/phrase8.jpg"}
+              src={"/phrase8.webp"}
               className="w-24 h-24 md:w-64 md:h-64 object-cover hover:scale-150 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
