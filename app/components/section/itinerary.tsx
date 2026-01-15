@@ -80,7 +80,6 @@ export default function Itinerary() {
             className="sticky w-full max-w-5xl mx-auto space-y-4 bg-amber-50/50 backdrop-blur-md border border-amber-100/50 rounded-lg shadow-xl pt-12 "
           >
             <div className="flex  items-center justify-center">
-
               <svg fill="#000000" className="h-12 w-12" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 302.25 302.25" >
                 <g>
@@ -111,9 +110,12 @@ export default function Itinerary() {
               </h2>
               <p className="text-lg/5 font-normal text-gray-900">Salón Las Cascadas</p>
               <p className="text-sm font-normal text-gray-500">Los Molinos 97, Las Minitas,<br />Hermosillo, Sonora</p>
-              <p className="text-2xl font-light text-black py-8">8:00 pm - 1:00 am</p>
+              <p className="text-2xl font-light text-black py-4">8:00 pm - 1:00 am</p>
+              <div className="flex flex-col gap-2  bg-yellow-100 py-4 px-6 rounded-lg">
+                <p className="text-xs/5 font-sm text-yellow-700">Con todo respeto, NO niños.</p>
+              </div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3487.7804291308476!2d-110.99278412448372!3d29.053074875437783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce848684c0d1fd%3A0x906b7921c982ba2e!2sSalon%20Las%20Cascadas!5e0!3m2!1ses-419!2smx!4v1768413949764!5m2!1ses-419!2smx" style={{ border: "0", width: "100%", height: "auto", minHeight: "400px" }}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3487.7804291308476!2d-110.99278412448372!3d29.053074875437783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce848684c0d1fd%3A0x906b7921c982ba2e!2sSalon%20Las%20Cascadas!5e0!3m2!1ses-419!2smx!4v1768413949764!5m2!1ses-419!2smx" style={{ border: "0", width: "100%", height: "auto", minHeight: "350px" }}
               loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
           {/* Card: Código de Vestimenta */}
@@ -137,7 +139,7 @@ export default function Itinerary() {
               <p className="text-xl/5 font-normal text-gray-900">Mujeres</p>
               <p className="text-sm font-normal text-gray-500">Vestido Largo</p>
               <p className="text-xl/5 font-normal text-gray-900 pt-4">Hombres</p>
-              <p className="text-sm font-normal text-gray-500">Traje</p>
+              <p className="text-sm font-normal text-gray-500">Traje Formal</p>
               <div className="flex flex-col gap-2  bg-red-100 my-16 py-6 px-12 rounded-lg">
                 <p className="text-lg/5 font-normal text-red-700">Evitar colores</p>
                 <p className="text-sm font-normal text-gray-600">Blanco · Vino · Rosa Palo</p>
@@ -155,8 +157,18 @@ export default function Itinerary() {
                   <h2 className="space-y-1 text-2xl font-semibold leading-none text-gray-900">
                     <span className="block text-xl md:text-2xl font-serif font-normal md:pb-8 pb-4">Padres de la Novia</span>
                   </h2>
-                  <p className="text-sm/4 font-normal text-gray-900">María Eduviges Córdova Velducea</p>
-                  <p className="text-sm/4 font-normal text-gray-900">Ángel Grijalva Morales</p>
+                  <div className="flex text-sm/4 font-normal text-gray-900">
+                    <svg className="h-4 w-4" viewBox="0 0 356 562" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M210 137H356V201H210V562H146V201H0V137H146V0H210V137Z" fill="black" />
+                    </svg>
+                    <p>María Eduviges Córdova Velducea</p>
+                  </div>
+                  <div className="flex text-sm/4 font-normal text-gray-900">
+                    <svg className="h-4 w-4" viewBox="0 0 356 562" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M210 137H356V201H210V562H146V201H0V137H146V0H210V137Z" fill="black" />
+                    </svg>
+                    <p>Ángel Grijalva Morales</p>
+                  </div>
                 </div>
               </div>
 
@@ -165,7 +177,7 @@ export default function Itinerary() {
                   <h2 className="space-y-1 text-2xl font-semibold leading-none text-gray-900">
                     <span className="block text-xl md:text-2xl font-serif font-normal md:pb-8 pb-4">Padres del Novio</span>
                   </h2>
-                  <p className="text-sm/4 font-normal text-gray-900">Elsa Arroyo Pinedo</p>
+                  <p className="text-sm/4 font-normal text-gray-900"> Elsa Arroyo Pinedo</p>
                   <p className="text-sm/4 font-normal text-gray-900">Miguel Ángel Ibarra Galindo</p>
                 </div>
               </div>
@@ -203,6 +215,8 @@ export default function Itinerary() {
               </h2>
               <p className="text-lg/6 font-normal text-gray-900">BBVA – Reyna Eduwiges Grijalva Córdoba</p>
               <p className="text-lg/6 font-normal text-gray-500">4152 3140 3063 9432</p>
+              <p className="text-lg/6 font-normal text-gray-900">BBVA – Miguel Ángel Ibarra Arroyo</p>
+              <p className="text-lg/6 font-normal text-gray-500">4152 3145 0401 8980</p>
               <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51805587" target="_blank" rel="noopener noreferrer">
                 <p className="text-lg/6 font-normal text-gray-900 pt-4">Liverpool</p>
                 <p className="text-lg/6 font-normal text-gray-500 underline flex items-center gap-1">

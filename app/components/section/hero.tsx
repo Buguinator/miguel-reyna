@@ -65,7 +65,7 @@ export default function Hero() {
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="flex flex-col items-center gap-2 pt-56">
           <h3 className="text-center text-xl md:text-2xl font-normal text-white"> Nos Casamos </h3>
-          <h1 className="text-center text-4xl md:text-8xl font-normal text-white"> Miguel y Reyna </h1>
+          <h1 className="text-center text-4xl md:text-8xl font-normal text-white">Reyna y Miguel</h1>
           <p className="text-center text-2xl md:text-4xl font-normal text-white"> 6 de Marzo de 2026 </p>
 
           {/* Contador */}
